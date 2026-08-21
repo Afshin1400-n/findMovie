@@ -36,7 +36,7 @@ export default function Home() {
         setMovies([])
       }
     } catch (err) {
-      console.error("❌ خطا:", err)
+     
       setError(err.message)
     } finally {
       setLoading(false)
